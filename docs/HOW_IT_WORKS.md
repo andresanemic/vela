@@ -2,7 +2,7 @@
 
 ## Scope
 
-Vela is a local, reversible project path for receiving a document once, sealing it, recording invitations and attestations, and withholding publication until the configured threshold is met. Its example data and organizations are fictional. Institutional membership is declared, but its proof is pending. Zero-knowledge verification is not implemented.
+This document specifies Vela's local, reversible flow. The [README](../README.md) gives the project definition and unit; the sections below detail the fictional example, participants, authority budgets and receipt checks.
 
 ## Participants and rights
 
@@ -69,7 +69,7 @@ This does not prove the document is true, that it belongs to the institution, th
 
 ### Alcance
 
-Vela es un recorrido local y reversible para recibir un documento una vez, sellarlo, registrar invitaciones y atestaciones, y retener la publicación hasta alcanzar el umbral configurado. Los datos y las organizaciones del ejemplo son ficticios. La pertenencia institucional se declara, pero su prueba está pendiente. La verificación de conocimiento cero no está implementada.
+Este documento especifica el recorrido local y reversible de Vela. El [README](../README.md) presenta la definición y la unidad del proyecto; las secciones siguientes detallan el ejemplo ficticio, los participantes, los presupuestos de autoridad y las comprobaciones de recibos.
 
 ### Participantes y derechos
 
