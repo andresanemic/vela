@@ -8,6 +8,7 @@
   <a href="./docs/EVIDENCE.md"><img src="https://img.shields.io/badge/suite-10_of_11-D7B698?style=for-the-badge&labelColor=07111A" alt="Suite: 10 of 11 tests pass today"></a>
   <a href="./docs/HOW_IT_WORKS.md"><img src="https://img.shields.io/badge/agreement-written_before_code-E0C170?style=for-the-badge&labelColor=07111A" alt="Agreement written before code"></a>
   <a href="https://github.com/andresanemic/vespi"><img src="https://img.shields.io/badge/built_with-Vespi_and_Lore_Plugin-E0C170?style=for-the-badge&labelColor=07111A" alt="Built with Vespi and Lore Plugin"></a>
+  <a href="https://github.com/andresanemic/vespi/tree/ed559e83c976dd6e6a379a5510db776206f670b4"><img src="https://img.shields.io/badge/kernel-0.1.5_candidate-ed559e8?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.5 candidate (commit ed559e8)"></a>
 </p>
 
 <p align="center"><b>A document stays sealed until invited verifiers support its publication.</b></p>
@@ -113,7 +114,7 @@ Today's failure is the digest pin check: `continuity.js` differs from the pinned
 
 ## Vela, Vespi and Lore Plugin
 
-Vela is the tenth of ten functional projects in the Vespi project set. It uses the kernel copy vendored by Lore Plugin, pinned by module digests. The documented kernel pieces Vela consumes are bounded authority grants, one-use budgets, the `sufficient` threshold predicate, receipt digests and receipt verification. Lore Plugin provides the vendored kernel copy described in the agreement; the agreement does not name other Lore Plugin features as part of this flow. This project has no network, testnet, payment or external anchor. See [Vespi](https://github.com/andresanemic/vespi) and [Lore Plugin](https://github.com/andresanemic/lore-plugin).
+Vela is the tenth of ten functional projects in the Vespi project set. It uses the kernel copy vendored by Lore Plugin, pinned by module digests. The project targets kernel **0.1.5 candidate** (commit `ed559e8`); the re-pinned digest table will be committed once the kernel release is confirmed. The documented kernel pieces Vela consumes are bounded authority grants, one-use budgets, the `sufficient` threshold predicate, receipt digests and receipt verification. Lore Plugin provides the vendored kernel copy described in the agreement; the agreement does not name other Lore Plugin features as part of this flow. This project has no network, testnet, payment or external anchor. See [Vespi](https://github.com/andresanemic/vespi) and [Lore Plugin](https://github.com/andresanemic/lore-plugin).
 
 ## What it does not do, and what is not verified
 
@@ -236,7 +237,7 @@ El fallo de hoy está en el pin del digest: `continuity.js` no coincide con el d
 
 ## Vela, Vespi y Lore Plugin
 
-Vela es el décimo de diez proyectos funcionales del conjunto de Vespi. Usa la copia del kernel incluida por Lore Plugin, fijada por digest de módulo. Las piezas del kernel que Vela documenta que consume son grants de autoridad acotada, presupuestos de un solo uso, el predicado `sufficient` para el umbral, digests de recibos y su verificación. Lore Plugin aporta la copia vendorizada del kernel descrita en el acuerdo; el acuerdo no nombra otras funciones de Lore Plugin como parte de este recorrido. Este proyecto no tiene red, testnet, pagos ni anclaje externo. Consulta [Vespi](https://github.com/andresanemic/vespi) y [Lore Plugin](https://github.com/andresanemic/lore-plugin).
+Vela es el décimo de diez proyectos funcionales del conjunto de Vespi. Usa la copia del kernel incluida por Lore Plugin, fijada por digest de módulo. El proyecto apunta al kernel **0.1.5 candidato** (commit `ed559e8`); la tabla de digest fijada se commiteará una vez confirmado el release del kernel. Las piezas del kernel que Vela documenta que consume son grants de autoridad acotada, presupuestos de un solo uso, el predicado `sufficient` para el umbral, digests de recibos y su verificación. Lore Plugin aporta la copia vendorizada del kernel descrita en el acuerdo; el acuerdo no nombra otras funciones de Lore Plugin como parte de este recorrido. Este proyecto no tiene red, testnet, pagos ni anclaje externo. Consulta [Vespi](https://github.com/andresanemic/vespi) y [Lore Plugin](https://github.com/andresanemic/lore-plugin).
 
 ## Lo que no hace Vela y lo que no está verificado
 
