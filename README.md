@@ -12,9 +12,7 @@
 </p>
 
 <p align="center"><b>Vela</b> — a source hands over evidence and risks being exposed.<br>
-Who contributes, who checks and who may publish are kept apart. Evidence: 11/11 tests. Fictional sources and media.<br>
-<b>Vela</b> — una fuente entrega evidencia y corre el riesgo de quedar expuesta.<br>
-Quién aporta, quién comprueba y quién puede publicar se mantienen separados. Evidencia: 11/11 pruebas. Fuentes y medios ficticios.</p>
+Who contributes, who checks and who may publish are kept apart. Evidence: 11/11 tests. Fictional sources and media.</p>
 
 <p align="center"><b>A document stays sealed until invited verifiers support its publication.</b></p>
 
@@ -24,6 +22,9 @@ Quién aporta, quién comprueba y quién puede publicar se mantienen separados. 
 <summary><b>Read in English</b></summary>
 
 <a id="english"></a>
+
+<p align="center"><b>Vela</b> — a source hands over evidence and risks being exposed.<br>
+Who contributes, who checks and who may publish are kept apart. Evidence: 11/11 tests. Fictional sources and media.</p>
 
 > **The unit is the sealed document and the verifications that may support its publication.**
 
@@ -147,6 +148,9 @@ This repository contains the agreement, explanation and test record, but not the
 <summary><b>Leer en español</b></summary>
 
 <a id="espanol"></a>
+
+<p align="center"><b>Vela</b> — una fuente entrega evidencia y corre el riesgo de quedar expuesta.<br>
+Quién aporta, quién comprueba y quién puede publicar se mantienen separados. Evidencia: 11/11 pruebas. Fuentes y medios ficticios.</p>
 
 **El documento queda sellado hasta que verificadores invitados respalden su publicación.**
 
