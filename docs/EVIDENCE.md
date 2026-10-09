@@ -4,14 +4,14 @@
 
 This release reproduces the captured output of Vela's local test suite. The project agreement describes no network, blockchain, testnet, payments or external anchor, and there is no transaction archive to replay. Local tests do not establish real journalism, source-protection outcomes or legal validation.
 
-## Current suite: 10 of 11
+## Current suite: 11 of 11
 
-The supplied `suite-hoy.txt` reports 11 tests, 10 passing and 1 failing. The test names are reproduced below as recorded.
+The supplied `docs/suite-2026-10-09.txt` reports 11 tests, 11 passing, 0 failing and 0 skipped, run in a clean clone with empty HOME and no network under Node v24.15.0 against Vespi kernel 0.1.5 (commit `ed559e83c976dd6e6a379a5510db776206f670b4`), copied in `vendor/vespi-kernel`. The test names are reproduced below as recorded.
 
-The following excerpt reproduces the test names, totals and failure message from the captured result. Timings, local paths and the raw digest values are omitted because they do not change what the result establishes.
+The following excerpt reproduces the test names and totals from the captured result. Timings, local paths and the raw digest values are omitted because they do not change what the result establishes.
 
 ```text
-✖ el núcleo que consume Vela es el corte fijado, módulo por módulo
+✔ el núcleo que consume Vela es el corte fijado, módulo por módulo
 ✔ el encabezado de los cinco módulos declara el mismo commit
 ✔ rojo 1: publicar antes del número de verificaciones se rechaza y deja el motivo
 ✔ rojo 2: un medio que no fue invitado no verifica
@@ -23,17 +23,19 @@ The following excerpt reproduces the test names, totals and failure message from
 ✔ recorte: la demostración de pertenencia con conocimiento cero se declara pendiente y no fabrica prueba
 ✔ recorte: el registro no tiene ninguna clave por donde pueda viajar la identidad de la fuente
 ℹ tests 11
-ℹ pass 10
-ℹ fail 1
-AssertionError [ERR_ASSERTION]: continuity.js: el núcleo se movió; repínalo a mano y vuelve a correr la suite
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
 ```
 
 ### Kernel pin and continuity
 
-- **Fail:** `el núcleo que consume Vela es el corte fijado, módulo por módulo`. The reported assertion says `continuity.js` moved from the pinned digest and asks for a manual re-pin. This is today's only failure.
+- **Pass:** `el núcleo que consume Vela es el corte fijado, módulo por módulo`. The suite verifies the vendored kernel copy against its SOURCE.md, module by module, including the commit.
 - **Pass:** `el encabezado de los cinco módulos declara el mismo commit`.
 
-Vela's phase record says the project closed its local run on 2026-09-29 with 11/11 passing in a fresh Node process against kernel cut `54c20c7`. The current supplied output is different: its kernel digest comparison fails against the installed `0.1.3` copy because `continuity.js` moved from the pinned value. Re-pinning is pending. This is a compatibility and pinning check, not a reported failure in the Vela flow. The earlier green run does not establish readiness for use; the project describes a working vertical path, not a finished product.
+The earlier 2026-10-03 capture was red because the project was pinned to the older kernel cut (0.1.3, commit `54c20c7`); that re-pin to 0.1.5 is done. The pin check is a compatibility check, not a reported failure in the Vela flow. A green suite does not establish readiness for use; the project describes a working vertical path, not a finished product.
 
 ### Functional boundaries
 
@@ -66,9 +68,9 @@ The agreement's closure conditions refer to seven RED cases, while `FASES.md` de
 During the judges' review period, once the code is present:
 
 1. Run `npm test` from the project directory in a fresh process. The source package defines the suite command as `node --test "test/*.test.js"`.
-2. Check the output against the current list above. Confirm that the kernel pin matches the intended kernel copy before interpreting the result.
+2. Check the output against `docs/suite-2026-10-09.txt`, the reference for this release: expect 11 tests, 11 passing, 0 failing and 0 skipped. Confirm that the kernel pin matches the intended kernel copy before interpreting the result.
 3. Run `npm run recorrido` to inspect the documented end-to-end path and its local receipts.
-4. Re-run the tests after any manual kernel re-pin. The re-pin should be reviewed alongside the five module digests in the consumed kernel's `SOURCE.md`.
+4. Review any future manual kernel re-pin alongside the five module digests in the consumed kernel's `SOURCE.md`, and re-run the suite afterwards.
 
 Vela has no testnet transactions to replay or inspect. The agreement states that its receipt anchor remains `pending` and that no external network operation occurs.
 
@@ -78,14 +80,14 @@ Vela has no testnet transactions to replay or inspect. The agreement states that
 
 Esta publicación reproduce la salida capturada de la suite local de Vela. El acuerdo del proyecto describe que no hay red, blockchain, testnet, pagos ni anclaje externo, y no hay un archivo de transacciones que repetir. Las pruebas locales no acreditan periodismo real, resultados de protección de fuentes ni validación jurídica.
 
-### Suite actual: 10 de 11
+### Suite actual: 11 de 11
 
-El archivo `suite-hoy.txt` informa 11 pruebas, 10 aprobadas y 1 fallida. A continuación se reproducen los nombres registrados.
+El archivo `docs/suite-2026-10-09.txt` informa 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas, corridas en un clon limpio con HOME vacío y sin red, con Node v24.15.0, contra el kernel Vespi 0.1.5 (commit `ed559e83c976dd6e6a379a5510db776206f670b4`), copiado en `vendor/vespi-kernel`. A continuación se reproducen los nombres registrados.
 
-Este fragmento reproduce los nombres de pruebas, los totales y el mensaje del fallo del resultado capturado. Se omiten tiempos, rutas locales y valores brutos de digest porque no cambian lo que el resultado demuestra.
+Este fragmento reproduce los nombres de pruebas y los totales del resultado capturado. Se omiten tiempos, rutas locales y valores brutos de digest porque no cambian lo que el resultado demuestra.
 
 ```text
-✖ el núcleo que consume Vela es el corte fijado, módulo por módulo
+✔ el núcleo que consume Vela es el corte fijado, módulo por módulo
 ✔ el encabezado de los cinco módulos declara el mismo commit
 ✔ rojo 1: publicar antes del número de verificaciones se rechaza y deja el motivo
 ✔ rojo 2: un medio que no fue invitado no verifica
@@ -97,17 +99,19 @@ Este fragmento reproduce los nombres de pruebas, los totales y el mensaje del fa
 ✔ recorte: la demostración de pertenencia con conocimiento cero se declara pendiente y no fabrica prueba
 ✔ recorte: el registro no tiene ninguna clave por donde pueda viajar la identidad de la fuente
 ℹ tests 11
-ℹ pass 10
-ℹ fail 1
-AssertionError [ERR_ASSERTION]: continuity.js: el núcleo se movió; repínalo a mano y vuelve a correr la suite
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
 ```
 
 ### Pin del kernel y continuidad
 
-- **Falla:** `el núcleo que consume Vela es el corte fijado, módulo por módulo`. La aserción informa que `continuity.js` se movió respecto del digest fijado y pide re-fijarlo manualmente. Es el único fallo de hoy.
+- **Pasa:** `el núcleo que consume Vela es el corte fijado, módulo por módulo`. La suite verifica la copia vendorizada del kernel contra su SOURCE.md, módulo por módulo, incluido el commit.
 - **Pasa:** `el encabezado de los cinco módulos declara el mismo commit`.
 
-El registro de fase de Vela dice que el proyecto cerró su corrida local el 2026-09-29 con 11/11 pruebas aprobadas en un proceso nuevo de Node contra el corte `54c20c7` del kernel. La salida actual entregada es distinta: falla la comparación del digest del kernel frente a la copia instalada `0.1.3` porque `continuity.js` se movió respecto del valor fijado. La re-fijación está pendiente. Es una comprobación de compatibilidad y del pin, no un fallo reportado en el recorrido de Vela. La corrida verde anterior no demuestra que esté listo para usarse; el proyecto describe un recorrido vertical que funciona, no un producto terminado.
+La captura anterior del 2026-10-03 estaba en rojo porque el proyecto estaba fijado al corte viejo del kernel (0.1.3, commit `54c20c7`); esa re-fijación a 0.1.5 ya está hecha. La comprobación del pin es una verificación de compatibilidad, no un fallo reportado en el recorrido de Vela. Una suite verde no demuestra que esté listo para usarse; el proyecto describe un recorrido vertical que funciona, no un producto terminado.
 
 ### Límites funcionales
 
@@ -140,8 +144,8 @@ Las condiciones de cierre del acuerdo hablan de siete casos RED, mientras que `F
 Durante el periodo de los jueces, cuando esté el código:
 
 1. Ejecuta `npm test` desde el directorio del proyecto en un proceso nuevo. El paquete fuente define la suite como `node --test "test/*.test.js"`.
-2. Compara la salida con la lista anterior. Confirma que el pin del kernel corresponde a la copia prevista antes de interpretar el resultado.
+2. Compara la salida con `docs/suite-2026-10-09.txt`, la referencia de esta publicación: espera 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas. Confirma que el pin del kernel corresponde a la copia prevista antes de interpretar el resultado.
 3. Ejecuta `npm run recorrido` para inspeccionar el recorrido completo documentado y sus recibos locales.
-4. Vuelve a correr las pruebas después de cualquier re-fijación manual del kernel. Revisa esa fijación junto con los cinco digests de módulo en el `SOURCE.md` del kernel consumido.
+4. Revisa cualquier re-fijación manual futura del kernel junto con los cinco digests de módulo en el `SOURCE.md` del kernel consumido, y vuelve a correr la suite después.
 
 No hay transacciones de Vela en testnet que repetir o inspeccionar. El acuerdo declara que el anclaje del recibo queda `pending` y que no hay operación de red externa.

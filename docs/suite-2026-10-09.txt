@@ -1,0 +1,22 @@
+Suite capture — vela — 2026-10-09
+Command: node --test test/*.test.js (clean clone of commit c07dc92, empty HOME, no network)
+Node: v24.15.0 · Kernel: Vespi 0.1.5, commit ed559e83c976dd6e6a379a5510db776206f670b4, copied in vendor/vespi-kernel
+Summary: tests 11 pass 11 fail 0 cancelled 0 skipped 0 todo 0 
+
+✔ el núcleo que consume Vela es el corte fijado, módulo por módulo (51.7186ms)
+✔ el encabezado de los cinco módulos declara el mismo commit (1.6958ms)
+✔ rojo 1: publicar antes del número de verificaciones se rechaza y deja el motivo (16.5279ms)
+✔ rojo 2: un medio que no fue invitado no verifica (6.5304ms)
+✔ rojo 3: un medio que ya firmó no vuelve a firmar (12.8165ms)
+✔ rojo 4: un documento alterado después del sello no se publica, ni aunque el número se alcance (33.4427ms)
+✔ rojo 5: la fuente intenta publicar su propia identidad y el sistema no la acepta (6.6561ms)
+✔ rojo 6: un documento ya publicado no se reabre (40.7139ms)
+✔ control: al alcanzar el número de verificaciones, la publicación ocurre (49.0182ms)
+✔ recorte: la demostración de pertenencia con conocimiento cero se declara pendiente y no fabrica prueba (6.7019ms)
+✔ recorte: el registro no tiene ninguna clave por donde pueda viajar la identidad de la fuente (41.3555ms)
+ℹ tests 11
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
