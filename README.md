@@ -139,9 +139,6 @@ This repository contains the agreement, explanation and test record, but not the
 
 <a id="espanol"></a>
 
-<p align="center"><b>Vela</b> — una fuente entrega evidencia y corre el riesgo de quedar expuesta.<br>
-Quién aporta, quién comprueba y quién puede publicar se mantienen separados. Evidencia: 11/11 pruebas. Fuentes y medios ficticios.</p>
-
 **El documento queda sellado hasta que verificadores invitados respalden su publicación.**
 
 > **La unidad es el documento sellado y las verificaciones que pueden respaldar su publicación.**
