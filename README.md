@@ -1,6 +1,8 @@
-[![Vela: a legal channel that holds publication until verification](./assets/cover.png)](./assets/cover.png)
+<p align="center">
+  <a href="./assets/cover.png"><img src="./assets/cover.png" alt="Vela: a legal channel that holds publication until verification" width="100%"></a>
+</p>
 
-# Vela
+<h1 align="center">Vela</h1>
 
 <p align="center">
   <a href="#english"><img src="https://img.shields.io/badge/status-vertical_slice-D7B698?style=for-the-badge&labelColor=07111A" alt="Status: vertical slice"></a>
@@ -14,7 +16,8 @@
 <p align="center"><b>Vela</b> — a source hands over evidence and risks being exposed.<br>
 Who contributes, who checks and who may publish are kept apart. Evidence: 11/11 tests. Fictional sources and media.</p>
 
-<p align="center"><b>A document stays sealed until invited verifiers support its publication.</b></p>
+<p align="center"><b>We’re applying to the Find Your Way hackathon and plan to participate in Meridian.</b></p>
+<p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./CODE_NOT_INCLUDED.md">Source and review terms</a>.<br>This public snapshot contains documentation and evidence, not runnable source.</p>
 
 ---
 
@@ -23,9 +26,6 @@ Who contributes, who checks and who may publish are kept apart. Evidence: 11/11 
 
 <a id="english"></a>
 
-<p align="center"><b>Vela</b> — a source hands over evidence and risks being exposed.<br>
-Who contributes, who checks and who may publish are kept apart. Evidence: 11/11 tests. Fictional sources and media.</p>
-
 > **The unit is the sealed document and the verifications that may support its publication.**
 
 Vela is a documented vertical slice for a legal channel where a person can submit a document they cannot publish alone. The document is sealed and remains unpublished while invited, fictional media verify it one at a time. Publication is attempted only after the configured number of verifications is recorded. Institutional membership is declared, but its proof is pending: Vela does not build zero-knowledge verification.
@@ -33,16 +33,6 @@ Vela is a documented vertical slice for a legal channel where a person can submi
 ## The problem
 
 A person can hand over evidence and still be left exposed when an institution stays silent. Nothing reaches the public, yet the person who submitted it has already taken the risk. The opposite shortcut is no better: publishing a document without enough review can turn it into a weapon and leave its source carrying the cost. Vela makes waiting part of the publication rule: seal first, invite fictional verifiers, and keep the document unpublished until the record meets the chosen threshold.
-
-## If you are judging Find Your Way or Meridian, start here
-
-1. Read the project foundation and its walkthrough. Start with [How it works](./docs/HOW_IT_WORKS.md).
-
-2. Open the test record. See [Evidence](./docs/EVIDENCE.md).
-
-3. Read the legal and verification limits. See [Legal and limits](./docs/LEGAL_AND_LIMITS.md).
-
-4. Review the publication conditions. See [Code not included](./CODE_NOT_INCLUDED.md) and the [review-only license](./LICENSE).
 
 ## In one minute
 
@@ -146,6 +136,8 @@ This repository contains the agreement, explanation and test record, but not the
 
 <details>
 <summary><b>Leer en español</b></summary>
+
+<p align="center"><b>Postulamos a la hackatón Find Your Way y planeamos participar en Meridian.</b></p>
 
 <a id="espanol"></a>
 
