@@ -137,8 +137,6 @@ This repository contains the agreement, explanation and test record, but not the
 <details>
 <summary><b>Leer en español</b></summary>
 
-<p align="center"><b>Postulamos a la hackatón Find Your Way y planeamos participar en Meridian.</b></p>
-
 <a id="espanol"></a>
 
 <p align="center"><b>Vela</b> — una fuente entrega evidencia y corre el riesgo de quedar expuesta.<br>
