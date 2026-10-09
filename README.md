@@ -11,6 +11,11 @@
   <a href="https://github.com/andresanemic/vespi/tree/ed559e83c976dd6e6a379a5510db776206f670b4"><img src="https://img.shields.io/badge/kernel-0.1.5_release-ed559e8?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.5 release (commit ed559e8)"></a>
 </p>
 
+<p align="center"><b>Vela</b> — a source hands over evidence and risks being exposed.<br>
+Who contributes, who checks and who may publish are kept apart. Evidence: 11/11 tests. Fictional sources and media.<br>
+<b>Vela</b> — una fuente entrega evidencia y corre el riesgo de quedar expuesta.<br>
+Quién aporta, quién comprueba y quién puede publicar se mantienen separados. Evidencia: 11/11 pruebas. Fuentes y medios ficticios.</p>
+
 <p align="center"><b>A document stays sealed until invited verifiers support its publication.</b></p>
 
 ---
