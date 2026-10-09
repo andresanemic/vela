@@ -74,13 +74,13 @@ During the judges' review period, once the code is present:
 
 Vela has no testnet transactions to replay or inspect. The agreement states that its receipt anchor remains `pending` and that no external network operation occurs.
 
-## Español
+# Español
 
-### Qué evidencia hay
+## Qué evidencia hay
 
 Esta publicación reproduce la salida capturada de la suite local de Vela. El acuerdo del proyecto describe que no hay red, blockchain, testnet, pagos ni anclaje externo, y no hay un archivo de transacciones que repetir. Las pruebas locales no acreditan periodismo real, resultados de protección de fuentes ni validación jurídica.
 
-### Suite actual: 11 de 11
+## Suite actual: 11 de 11
 
 El archivo `docs/suite-2026-10-09.txt` informa 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas, corridas en un clon limpio con HOME vacío y sin red, con Node v24.15.0, contra el kernel Vespi 0.1.5 (commit `ed559e83c976dd6e6a379a5510db776206f670b4`), copiado en `vendor/vespi-kernel`. A continuación se reproducen los nombres registrados.
 
@@ -129,7 +129,7 @@ Estas pruebas nombradas pasan en la salida actual:
 
 Estas pruebas cubren el comportamiento que nombran. Que pasen no demuestra seguridad de una fuente, verdad del documento, independencia de un verificador real, efecto jurídico ni funcionamiento con datos reales.
 
-### Qué encontró la fase adversarial previa al código
+## Qué encontró la fase adversarial previa al código
 
 `FASES.md` informa que antes de implementar, la fase RED corrió 11 pruebas: dos comprobaciones de digest del kernel pasaron y nueve casos del proyecto fallaron uno por uno. Registra tres defectos hallados al pasar de RED a GREEN, también descritos en el acuerdo:
 
@@ -139,7 +139,7 @@ Estas pruebas cubren el comportamiento que nombran. Que pasen no demuestra segur
 
 Las condiciones de cierre del acuerdo hablan de siete casos RED, mientras que `FASES.md` describe nueve casos del proyecto que fallaron y dos comprobaciones de digest que pasaron. Las fuentes entregadas no explican la diferencia, así que se conservan ambos conteos y no se tratan como equivalentes. Estas notas describen pruebas adversariales internas, no una auditoría de seguridad independiente.
 
-### Cómo volver a correrla cuando se abra el código
+## Cómo volver a correrla cuando se abra el código
 
 Durante el periodo de los jueces, cuando esté el código:
 

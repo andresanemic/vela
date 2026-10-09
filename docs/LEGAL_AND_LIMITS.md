@@ -26,15 +26,15 @@ These are questions left open by the stated limits, not claims that Vela has ans
 - Who would be accountable for the publication decision and for an error in a verifier's attestation?
 - Which legal standards, if any, would be relevant to a future real deployment, and what review by a competent legal professional would be required?
 
-## Español
+# Español
 
-### Fuentes legales o normativas citadas por el acuerdo
+## Fuentes legales o normativas citadas por el acuerdo
 
 El acuerdo de Vela no cita leyes, reglamentos ni otras normas jurídicas. Dice expresamente que no se nombra un ancla normativa y que el proyecto no afirma cumplir ninguna norma. Por eso, este documento no atribuye una ley a Vela ni presenta su diseño como cumplimiento legal.
 
 Las fuentes de trabajo entregadas no documentan una revisión por una persona competente en derecho. Con estos materiales no puedo verificar si ocurrió una revisión fuera de ellos. La licencia de solo revisión se identifica aparte como borrador de trabajo que debería revisar una persona abogada antes de que alguien se apoye en ella.
 
-### Lo que Vela no afirma
+## Lo que Vela no afirma
 
 - El proyecto no afirma cumplir leyes ni reglamentos.
 - No afirma que el documento entregado sea verdadero ni que pruebe su relación con una institución. La pertenencia se declara y su prueba está pendiente.
@@ -44,7 +44,7 @@ Las fuentes de trabajo entregadas no documentan una revisión por una persona co
 - Los registros de muestra de Vela no usan datos personales reales. Los ejemplos usan datos sintéticos, instituciones ficticias y medios ficticios.
 - No tiene red, testnet, pagos, anclaje externo ni prueba de conocimiento cero activa.
 
-### Preguntas abiertas
+## Preguntas abiertas
 
 Estas preguntas quedan abiertas por los límites declarados; no son afirmaciones de que Vela ya las haya resuelto:
 

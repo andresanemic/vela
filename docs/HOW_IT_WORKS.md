@@ -65,13 +65,13 @@ The described tests exercise the seal, invitations, one-verification-per-invite 
 
 This does not prove the document is true, that it belongs to the institution, that any real journalism took place, that a real source is safe or anonymous, or that a real institution received anything. It does not prove identity, authenticity of the file custodian, legal compliance, legal effect or readiness for use. The zero-knowledge proof is pending. All sample records and organizations are synthetic; no real source, institution or medium is included in those examples.
 
-## Español
+# Español
 
-### Alcance
+## Alcance
 
 Este documento especifica el recorrido local y reversible de Vela. El [README](../README.md) presenta la definición y la unidad del proyecto; las secciones siguientes detallan el ejemplo ficticio, los participantes, los presupuestos de autoridad y las comprobaciones de recibos.
 
-### Participantes y derechos
+## Participantes y derechos
 
 | Participante | Qué puede hacer en el recorrido descrito | Qué no establece |
 |---|---|---|
@@ -80,7 +80,7 @@ Este documento especifica el recorrido local y reversible de Vela. El [README](.
 | Verificador invitado (`medio-1`, `medio-2`, `medio-3`) | Verificar una vez y elegir una atestación cerrada | Son organizaciones ficticias. No se contacta a ningún medio real y el verificador no ve quién entregó el documento. |
 | Lector | Abrir `datos/registro.jsonl` con cualquier editor e inspeccionar el estado registrado | Un digest de recibo no autentica a quien guardó o entregó el archivo. |
 
-### Recorrido: un documento ficticio
+## Recorrido: un documento ficticio
 
 El ejemplo usa solo datos sintéticos descritos por el acuerdo del proyecto. No representa una institución, fuente ni revisión periodística reales.
 
@@ -113,7 +113,7 @@ releer registro; recalcular recibos; contar verificaciones
         +-- umbral alcanzado ----> escribir línea de publicación
 ```
 
-### Autoridad y reglas en lenguaje claro
+## Autoridad y reglas en lenguaje claro
 
 Vela usa cuatro presupuestos de autoridad encadenados. Cada uno limita una acción distinta y el grant de publicación solo se arma cuando se intenta publicar.
 
@@ -126,7 +126,7 @@ El umbral descrito es tres. El acuerdo lo trata como un parámetro elegido para 
 
 El registro es local y reversible. No hay red, blockchain, testnet, pagos, anclaje externo ni operación x402 activa. Cada sello, invitación, verificación y publicación tiene su propio recibo, que una auditoría puede inspeccionar junto con el registro. Las comprobaciones de recibos son comportamiento local; no vuelven confiable de forma independiente a quien custodia el archivo.
 
-### Qué prueba y qué no prueba el recorrido
+## Qué prueba y qué no prueba el recorrido
 
 Las pruebas descritas ejercitan el sello, las invitaciones, la regla de una verificación por invitación, la detección de alteraciones, el rechazo de la identidad de la fuente, el bloqueo de publicación bajo el umbral, la publicación al alcanzarlo, el estado cerrado tras publicar y el límite ZK pendiente. El registro puede mostrar qué verificador ficticio firmó qué atestación cerrada y qué calculó el proyecto a partir del registro local.
 
