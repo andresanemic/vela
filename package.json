@@ -1,0 +1,11 @@
+{
+  "name": "vela",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Proyecto 10 de los diez de Vespi: proteger a quien dice la verdad por un canal legal. Consume el kernel de Vespi; no lo modifica.",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "recorrido": "node src/recorrido.js",
+    "cli": "node src/cli.js"
+  }
+}

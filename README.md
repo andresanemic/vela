@@ -17,7 +17,7 @@
 Who contributes, who checks and who may publish are kept apart. Evidence: 11/11 tests. Fictional sources and media.</p>
 
 <p align="center"><b>We’re applying to the Find Your Way hackathon and plan to participate in Meridian.</b></p>
-<p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./CODE_NOT_INCLUDED.md">Source and review terms</a>.<br>This public snapshot contains documentation and evidence, not runnable source.</p>
+<p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./LICENSE">Review-only license</a>.<br>The source is in this repository: run <code>npm test</code> on Node 24.</p>
 
 ---
 
@@ -120,7 +120,7 @@ There is no running zero-knowledge proof. Institutional membership is declared a
 
 ## How to review this project
 
-This repository contains the agreement, explanation and test record, but not the source code. [Code not included](./CODE_NOT_INCLUDED.md) explains the publication conditions. The code is stated to open during the judges' review period under the review-only terms in [LICENSE](./LICENSE), which permits reading and cloning for evaluation. The license is proprietary and marked as a working draft for legal review.
+This repository contains the source code, the agreement, explanation and test record, under the review-only terms in [LICENSE](./LICENSE), which permits reading and cloning for evaluation. Run `npm test` on Node 24 from the project root. The license is proprietary and marked as a working draft for legal review.
 
 ## Author
 
@@ -130,7 +130,7 @@ This repository contains the agreement, explanation and test record, but not the
 
 ---
 
-[How it works](./docs/HOW_IT_WORKS.md) · [Evidence](./docs/EVIDENCE.md) · [Legal and limits](./docs/LEGAL_AND_LIMITS.md) · [Code not included](./CODE_NOT_INCLUDED.md) · [Review-only license](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
+[How it works](./docs/HOW_IT_WORKS.md) · [Evidence](./docs/EVIDENCE.md) · [Legal and limits](./docs/LEGAL_AND_LIMITS.md) · [Review-only license](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
 
 </details>
 
@@ -157,7 +157,7 @@ Una persona puede entregar evidencia y aun así quedar expuesta si una instituci
 
 3. Lee los límites jurídicos y de verificación. Consulta [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md).
 
-4. Revisa las condiciones de publicación. Consulta [Código no incluido](./CODE_NOT_INCLUDED.md) y la [licencia de solo revisión](./LICENSE).
+4. Lee los términos en la [licencia de solo revisión](./LICENSE) y ejecuta `npm test` (Node 24).
 
 ## En un minuto
 
@@ -245,7 +245,7 @@ No hay una prueba de conocimiento cero activa. La pertenencia institucional se d
 
 ## Cómo revisar este proyecto
 
-Este repositorio contiene el acuerdo, la explicación y el registro de pruebas, pero no el código fuente. [Código no incluido](./CODE_NOT_INCLUDED.md) explica las condiciones de publicación. Se indica que el código se abrirá durante el periodo de revisión de los jueces bajo los términos de solo revisión de [LICENSE](./LICENSE), que permiten leerlo y clonarlo para evaluarlo. La licencia es propietaria y está marcada como borrador de trabajo para revisión jurídica.
+Este repositorio contiene el código fuente, el acuerdo, la explicación y el registro de pruebas, bajo los términos de solo revisión de [LICENSE](./LICENSE), que permiten leerlo y clonarlo para evaluarlo. Ejecuta `npm test` con Node 24 desde la raíz del proyecto. La licencia es propietaria y está marcada como borrador de trabajo para revisión jurídica.
 
 ## Autor
 
@@ -255,6 +255,6 @@ Este repositorio contiene el acuerdo, la explicación y el registro de pruebas, 
 
 ---
 
-[Cómo funciona](./docs/HOW_IT_WORKS.md) · [Evidencia](./docs/EVIDENCE.md) · [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md) · [Código no incluido](./CODE_NOT_INCLUDED.md) · [Licencia de solo revisión](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
+[Cómo funciona](./docs/HOW_IT_WORKS.md) · [Evidencia](./docs/EVIDENCE.md) · [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md) · [Licencia de solo revisión](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
 
 </details>

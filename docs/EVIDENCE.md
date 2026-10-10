@@ -63,11 +63,11 @@ These tests cover the project behavior named in their descriptions. Passing them
 
 The agreement's closure conditions refer to seven RED cases, while `FASES.md` describes nine failing project cases plus two passing digest checks. The supplied sources do not explain the difference, so both counts are preserved here and not treated as interchangeable. These phase notes describe internal adversarial tests, not an independent external security audit.
 
-## How to rerun when code opens
+## How to rerun the suite
 
-During the judges' review period, once the code is present:
+The source is in this repository under the review-only license (reading and cloning for evaluation; no modification or redistribution):
 
-1. Run `npm test` from the project directory in a fresh process. The source package defines the suite command as `node --test "test/*.test.js"`.
+1. Run `npm test` on Node 24 from the project root in a fresh process. The source package defines the suite command as `node --test "test/*.test.js"`.
 2. Check the output against `docs/suite-2026-10-09.txt`, the reference for this release: expect 11 tests, 11 passing, 0 failing and 0 skipped. Confirm that the kernel pin matches the intended kernel copy before interpreting the result.
 3. Run `npm run recorrido` to inspect the documented end-to-end path and its local receipts.
 4. Review any future manual kernel re-pin alongside the five module digests in the consumed kernel's `SOURCE.md`, and re-run the suite afterwards.
@@ -139,11 +139,11 @@ Estas pruebas cubren el comportamiento que nombran. Que pasen no demuestra segur
 
 Las condiciones de cierre del acuerdo hablan de siete casos RED, mientras que `FASES.md` describe nueve casos del proyecto que fallaron y dos comprobaciones de digest que pasaron. Las fuentes entregadas no explican la diferencia, así que se conservan ambos conteos y no se tratan como equivalentes. Estas notas describen pruebas adversariales internas, no una auditoría de seguridad independiente.
 
-## Cómo volver a correrla cuando se abra el código
+## Cómo volver a correr la suite
 
-Durante el periodo de los jueces, cuando esté el código:
+El código está en este repositorio bajo la licencia de solo revisión (permite leer y clonar para evaluar, no modificar ni redistribuir):
 
-1. Ejecuta `npm test` desde el directorio del proyecto en un proceso nuevo. El paquete fuente define la suite como `node --test "test/*.test.js"`.
+1. Ejecuta `npm test` con Node 24 desde la raíz del proyecto en un proceso nuevo. El paquete fuente define la suite como `node --test "test/*.test.js"`.
 2. Compara la salida con `docs/suite-2026-10-09.txt`, la referencia de esta publicación: espera 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas. Confirma que el pin del kernel corresponde a la copia prevista antes de interpretar el resultado.
 3. Ejecuta `npm run recorrido` para inspeccionar el recorrido completo documentado y sus recibos locales.
 4. Revisa cualquier re-fijación manual futura del kernel junto con los cinco digests de módulo en el `SOURCE.md` del kernel consumido, y vuelve a correr la suite después.
