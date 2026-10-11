@@ -18,7 +18,7 @@
 <p align="center"><b>Vela</b> — a source hands over evidence and risks being exposed.<br>
 Who contributes, who checks and who may publish are kept apart. Evidence: 11/11 tests. Fictional sources and media.</p>
 
-<p align="center"><b>We’re applying to the Find Your Way hackathon and plan to participate in Meridian.</b></p>
+<p align="center"><b>We submitted Vespi to the Find Your Way hackathon and plan to participate in Meridian.</b></p>
 <p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./LICENSE">Review-only license</a>.<br>The source is in this repository: run <code>npm test</code> on Node 24.</p>
 
 ---
