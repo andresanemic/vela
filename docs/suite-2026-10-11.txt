@@ -1,19 +1,19 @@
 Suite capture — vela — 2026-10-11
-Command: node --test test/*.test.js (clean clone of commit 03f4c46, empty HOME, no network)
-Node: v24.15.0 · Kernel: Vespi 0.1.6, commit 98a33280fb35cb1fc7feda483e7dd57b97362c49, copied in vendor/vespi-kernel
+Command: node --test test/*.test.js (clean clone of commit b8f22ad, empty HOME, no network)
+Node: v24.15.0 · Kernel: Vespi 0.1.6, commit 39d45733839d0a05f60248fc6e5b81c892c464f8, copied in vendor/vespi-kernel
 Summary: tests 11 pass 11 fail 0 cancelled 0 skipped 0 todo 0 
 
-✔ el núcleo que consume Vela es el corte fijado, módulo por módulo (43.4978ms)
-✔ el encabezado de los cinco módulos declara el mismo commit (1.4179ms)
-✔ rojo 1: publicar antes del número de verificaciones se rechaza y deja el motivo (14.8966ms)
-✔ rojo 2: un medio que no fue invitado no verifica (5.6802ms)
-✔ rojo 3: un medio que ya firmó no vuelve a firmar (12.4341ms)
-✔ rojo 4: un documento alterado después del sello no se publica, ni aunque el número se alcance (31.3708ms)
-✔ rojo 5: la fuente intenta publicar su propia identidad y el sistema no la acepta (5.2867ms)
-✔ rojo 6: un documento ya publicado no se reabre (40.4444ms)
-✔ control: al alcanzar el número de verificaciones, la publicación ocurre (54.2051ms)
-✔ recorte: la demostración de pertenencia con conocimiento cero se declara pendiente y no fabrica prueba (5.58ms)
-✔ recorte: el registro no tiene ninguna clave por donde pueda viajar la identidad de la fuente (37.6022ms)
+✔ el núcleo que consume Vela es el corte fijado, módulo por módulo (57.0012ms)
+✔ el encabezado de los cinco módulos declara el mismo commit (1.5726ms)
+✔ rojo 1: publicar antes del número de verificaciones se rechaza y deja el motivo (19.2846ms)
+✔ rojo 2: un medio que no fue invitado no verifica (7.6845ms)
+✔ rojo 3: un medio que ya firmó no vuelve a firmar (14.242ms)
+✔ rojo 4: un documento alterado después del sello no se publica, ni aunque el número se alcance (38.7096ms)
+✔ rojo 5: la fuente intenta publicar su propia identidad y el sistema no la acepta (6.8411ms)
+✔ rojo 6: un documento ya publicado no se reabre (45.703ms)
+✔ control: al alcanzar el número de verificaciones, la publicación ocurre (56.4088ms)
+✔ recorte: la demostración de pertenencia con conocimiento cero se declara pendiente y no fabrica prueba (7.1405ms)
+✔ recorte: el registro no tiene ninguna clave por donde pueda viajar la identidad de la fuente (43.1133ms)
 ℹ tests 11
 ℹ suites 0
 ℹ pass 11
@@ -21,4 +21,4 @@ Summary: tests 11 pass 11 fail 0 cancelled 0 skipped 0 todo 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 360.4074
+ℹ duration_ms 435.0719
