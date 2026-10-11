@@ -6,7 +6,7 @@ This release reproduces the captured output of Vela's local test suite. The proj
 
 ## Current suite: 11 of 11
 
-The supplied `docs/suite-2026-10-09.txt` reports 11 tests, 11 passing, 0 failing and 0 skipped, run in a clean clone with empty HOME and no network under Node v24.15.0 against Vespi kernel 0.1.6 (commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`), copied in `vendor/vespi-kernel`. The test names are reproduced below as recorded.
+The supplied `docs/suite-2026-10-11.txt` reports 11 tests, 11 passing, 0 failing and 0 skipped, run in a clean clone with empty HOME and no network under Node v24.15.0 against Vespi kernel 0.1.6 (commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`), copied in `vendor/vespi-kernel`. The test names are reproduced below as recorded.
 
 The following excerpt reproduces the test names and totals from the captured result. Timings, local paths and the raw digest values are omitted because they do not change what the result establishes.
 
@@ -68,7 +68,7 @@ The agreement's closure conditions refer to seven RED cases, while `FASES.md` de
 The source is in this repository under the review-only license (reading and cloning for evaluation; no modification or redistribution):
 
 1. Run `npm test` on Node 24 from the project root in a fresh process. The source package defines the suite command as `node --test "test/*.test.js"`.
-2. Check the output against `docs/suite-2026-10-09.txt`, the reference for this release: expect 11 tests, 11 passing, 0 failing and 0 skipped. Confirm that the kernel pin matches the intended kernel copy before interpreting the result.
+2. Check the output against `docs/suite-2026-10-11.txt`, the reference for this release: expect 11 tests, 11 passing, 0 failing and 0 skipped. Confirm that the kernel pin matches the intended kernel copy before interpreting the result.
 3. Run `npm run recorrido` to inspect the documented end-to-end path and its local receipts.
 4. Review any future manual kernel re-pin alongside the five module digests in the consumed kernel's `SOURCE.md`, and re-run the suite afterwards.
 
@@ -82,7 +82,7 @@ Esta publicación reproduce la salida capturada de la suite local de Vela. El ac
 
 ## Suite actual: 11 de 11
 
-El archivo `docs/suite-2026-10-09.txt` informa 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas, corridas en un clon limpio con HOME vacío y sin red, con Node v24.15.0, contra el kernel Vespi 0.1.6 (commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`), copiado en `vendor/vespi-kernel`. A continuación se reproducen los nombres registrados.
+El archivo `docs/suite-2026-10-11.txt` informa 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas, corridas en un clon limpio con HOME vacío y sin red, con Node v24.15.0, contra el kernel Vespi 0.1.6 (commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`), copiado en `vendor/vespi-kernel`. A continuación se reproducen los nombres registrados.
 
 Este fragmento reproduce los nombres de pruebas y los totales del resultado capturado. Se omiten tiempos, rutas locales y valores brutos de digest porque no cambian lo que el resultado demuestra.
 
@@ -144,7 +144,7 @@ Las condiciones de cierre del acuerdo hablan de siete casos RED, mientras que `F
 El código está en este repositorio bajo la licencia de solo revisión (permite leer y clonar para evaluar, no modificar ni redistribuir):
 
 1. Ejecuta `npm test` con Node 24 desde la raíz del proyecto en un proceso nuevo. El paquete fuente define la suite como `node --test "test/*.test.js"`.
-2. Compara la salida con `docs/suite-2026-10-09.txt`, la referencia de esta publicación: espera 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas. Confirma que el pin del kernel corresponde a la copia prevista antes de interpretar el resultado.
+2. Compara la salida con `docs/suite-2026-10-11.txt`, la referencia de esta publicación: espera 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas. Confirma que el pin del kernel corresponde a la copia prevista antes de interpretar el resultado.
 3. Ejecuta `npm run recorrido` para inspeccionar el recorrido completo documentado y sus recibos locales.
 4. Revisa cualquier re-fijación manual futura del kernel junto con los cinco digests de módulo en el `SOURCE.md` del kernel consumido, y vuelve a correr la suite después.
 
