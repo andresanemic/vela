@@ -6,7 +6,7 @@ This release reproduces the captured output of Vela's local test suite. The proj
 
 ## Current suite: 11 of 11
 
-The supplied `docs/suite-2026-10-11.txt` reports 11 tests, 11 passing, 0 failing and 0 skipped, run in a clean clone with empty HOME and no network under Node v24.15.0 against Vespi kernel 0.1.6 (commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`), copied in `vendor/vespi-kernel`. The test names are reproduced below as recorded.
+The supplied `docs/suite-2026-10-11.txt` reports 11 tests, 11 passing, 0 failing and 0 skipped, run in a clean clone with empty HOME and no network under Node v24.15.0 against Vespi kernel 0.1.6 (commit `7767daa369e464b486ddf16b08b8985e59ec107d`), copied in `vendor/vespi-kernel`. The test names are reproduced below as recorded.
 
 The following excerpt reproduces the test names and totals from the captured result. Timings, local paths and the raw digest values are omitted because they do not change what the result establishes.
 
@@ -82,7 +82,7 @@ Esta publicación reproduce la salida capturada de la suite local de Vela. El ac
 
 ## Suite actual: 11 de 11
 
-El archivo `docs/suite-2026-10-11.txt` informa 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas, corridas en un clon limpio con HOME vacío y sin red, con Node v24.15.0, contra el kernel Vespi 0.1.6 (commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`), copiado en `vendor/vespi-kernel`. A continuación se reproducen los nombres registrados.
+El archivo `docs/suite-2026-10-11.txt` informa 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas, corridas en un clon limpio con HOME vacío y sin red, con Node v24.15.0, contra el kernel Vespi 0.1.6 (commit `7767daa369e464b486ddf16b08b8985e59ec107d`), copiado en `vendor/vespi-kernel`. A continuación se reproducen los nombres registrados.
 
 Este fragmento reproduce los nombres de pruebas y los totales del resultado capturado. Se omiten tiempos, rutas locales y valores brutos de digest porque no cambian lo que el resultado demuestra.
 
