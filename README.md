@@ -117,6 +117,9 @@ Vela is the tenth of ten functional projects in the Vespi project set. It uses t
 
 ## What it does not do, and what is not verified
 
+Review status: this project has not been audited. The Vespi kernel it runs on has had superreviews with Claude Code and no independent external security audit.
+
+
 There is no running zero-knowledge proof. Institutional membership is declared and its proof is pending. Vela does not hack, leak or identify a source, even in simulation. It does not use real documents, personal data, real media or a network, and it claims no legal compliance. The project materials do not verify an active agent session with RC5, and they do not establish readiness for real use. The kernel re-pin to 0.1.6 is done; the current suite is 11/11. See [Legal and limits](./docs/LEGAL_AND_LIMITS.md).
 
 ## How to review this project
@@ -243,6 +246,9 @@ Vela es el décimo de diez proyectos funcionales del conjunto de Vespi. Usa la c
 **Qué significa esta relación.** El proyecto se construyó con el método de Lore Plugin (su acuerdo y su criterio viven en el proyecto, en `acuerdo.md` y `lore/`), y sus operaciones, autoridad y recibos corren sobre el kernel de Vespi 0.1.6, en la copia fijada para Lore Plugin 2.5.2 (`skills/vespi/core/kernel`). Esa copia está en el proyecto como `vendor/vespi-kernel` y la suite la verifica contra su `SOURCE.md`. Lore Plugin no corre dentro del proyecto. Este proyecto no usa las capacidades nuevas del kernel (anclas Stellar pubnet, liquidación x402 en vivo, el verificador ZK, el acceso de emergencia); ejerce el núcleo de operaciones, autoridad y recibos.
 
 ## Lo que no hace Vela y lo que no está verificado
+
+Estado de revisión: este proyecto no ha sido auditado. El kernel de Vespi sobre el que corre ha tenido superreviews con Claude Code y ninguna auditoría de seguridad externa independiente.
+
 
 No hay una prueba de conocimiento cero activa. La pertenencia institucional se declara y su prueba está pendiente. Vela no hackea, filtra ni identifica a una fuente, ni siquiera en simulación. No usa documentos reales, datos personales, medios reales ni una red, y no afirma cumplir normas jurídicas. Los materiales del proyecto no verifican una sesión activa de agente con RC5 ni establecen que esté listo para uso real. La re-fijación del kernel a 0.1.6 está hecha; la suite actual es 11/11. Consulta [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md).
 
