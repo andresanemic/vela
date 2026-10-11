@@ -10,7 +10,7 @@
 //
 // Lo que sí funciona de verdad aquí es el bloqueo. La demostración de
 // pertenencia con conocimiento cero NO está construida: el verificador ZK es
-// aunque el kernel 0.1.5 lo incluye, este proyecto todavía no lo integra y conserva el lugar
+// aunque el kernel 0.1.6 lo incluye, este proyecto todavía no lo integra y conserva el lugar
 // donde iría. `demostrarPertenencia` dice lo que falta y no fabrica una prueba,
 // porque un ejemplo de prueba sería un enlace entre el documento y la fuente —
 // exactamente el defecto que este proyecto no construye.
@@ -526,7 +526,7 @@ class Vela {
       simulado: true,
       prueba: null,
       que_haria_falta:
-        'integrar el verificador ZK del kernel 0.1.5 y acreditar que el documento pertenece a '
+        'integrar el verificador ZK del kernel 0.1.6 y acreditar que el documento pertenece a '
         + `${documento ? documento.institucion : 'la institución'} sin revelar quién lo entregó`,
       por_que_no_esta_aqui:
         'la pertenencia está declarada y la demostración que la sostiene no está construida. '

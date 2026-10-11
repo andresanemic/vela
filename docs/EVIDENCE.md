@@ -6,7 +6,7 @@ This release reproduces the captured output of Vela's local test suite. The proj
 
 ## Current suite: 11 of 11
 
-The supplied `docs/suite-2026-10-09.txt` reports 11 tests, 11 passing, 0 failing and 0 skipped, run in a clean clone with empty HOME and no network under Node v24.15.0 against Vespi kernel 0.1.5 (commit `ed559e83c976dd6e6a379a5510db776206f670b4`), copied in `vendor/vespi-kernel`. The test names are reproduced below as recorded.
+The supplied `docs/suite-2026-10-09.txt` reports 11 tests, 11 passing, 0 failing and 0 skipped, run in a clean clone with empty HOME and no network under Node v24.15.0 against Vespi kernel 0.1.6 (commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`), copied in `vendor/vespi-kernel`. The test names are reproduced below as recorded.
 
 The following excerpt reproduces the test names and totals from the captured result. Timings, local paths and the raw digest values are omitted because they do not change what the result establishes.
 
@@ -35,7 +35,7 @@ The following excerpt reproduces the test names and totals from the captured res
 - **Pass:** `el núcleo que consume Vela es el corte fijado, módulo por módulo`. The suite verifies the vendored kernel copy against its SOURCE.md, module by module, including the commit.
 - **Pass:** `el encabezado de los cinco módulos declara el mismo commit`.
 
-The earlier 2026-10-03 capture was red because the project was pinned to the older kernel cut (0.1.3, commit `54c20c7`); that re-pin to 0.1.5 is done. The pin check is a compatibility check, not a reported failure in the Vela flow. A green suite does not establish readiness for use; the project describes a working vertical path, not a finished product.
+The earlier 2026-10-03 capture was red because the project was pinned to the older kernel cut (0.1.3, commit `54c20c7`); that re-pin to 0.1.6 is done. The pin check is a compatibility check, not a reported failure in the Vela flow. A green suite does not establish readiness for use; the project describes a working vertical path, not a finished product.
 
 ### Functional boundaries
 
@@ -82,7 +82,7 @@ Esta publicación reproduce la salida capturada de la suite local de Vela. El ac
 
 ## Suite actual: 11 de 11
 
-El archivo `docs/suite-2026-10-09.txt` informa 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas, corridas en un clon limpio con HOME vacío y sin red, con Node v24.15.0, contra el kernel Vespi 0.1.5 (commit `ed559e83c976dd6e6a379a5510db776206f670b4`), copiado en `vendor/vespi-kernel`. A continuación se reproducen los nombres registrados.
+El archivo `docs/suite-2026-10-09.txt` informa 11 pruebas, 11 aprobadas, 0 fallidas y 0 omitidas, corridas en un clon limpio con HOME vacío y sin red, con Node v24.15.0, contra el kernel Vespi 0.1.6 (commit `95f2d614f4492056c8bb2cd951f08d1089027d4f`), copiado en `vendor/vespi-kernel`. A continuación se reproducen los nombres registrados.
 
 Este fragmento reproduce los nombres de pruebas y los totales del resultado capturado. Se omiten tiempos, rutas locales y valores brutos de digest porque no cambian lo que el resultado demuestra.
 
@@ -111,7 +111,7 @@ Este fragmento reproduce los nombres de pruebas y los totales del resultado capt
 - **Pasa:** `el núcleo que consume Vela es el corte fijado, módulo por módulo`. La suite verifica la copia vendorizada del kernel contra su SOURCE.md, módulo por módulo, incluido el commit.
 - **Pasa:** `el encabezado de los cinco módulos declara el mismo commit`.
 
-La captura anterior del 2026-10-03 estaba en rojo porque el proyecto estaba fijado al corte viejo del kernel (0.1.3, commit `54c20c7`); esa re-fijación a 0.1.5 ya está hecha. La comprobación del pin es una verificación de compatibilidad, no un fallo reportado en el recorrido de Vela. Una suite verde no demuestra que esté listo para usarse; el proyecto describe un recorrido vertical que funciona, no un producto terminado.
+La captura anterior del 2026-10-03 estaba en rojo porque el proyecto estaba fijado al corte viejo del kernel (0.1.3, commit `54c20c7`); esa re-fijación a 0.1.6 ya está hecha. La comprobación del pin es una verificación de compatibilidad, no un fallo reportado en el recorrido de Vela. Una suite verde no demuestra que esté listo para usarse; el proyecto describe un recorrido vertical que funciona, no un producto terminado.
 
 ### Límites funcionales
 
