@@ -48,7 +48,7 @@ async function main() {
   linea(`  qué haría falta: ${p.que_haria_falta}`);
   linea(`  por qué no está aquí: ${p.por_que_no_esta_aqui}`);
   linea('  SIN RODEOS: aquí no hay conocimiento cero corriendo. Hay un lugar donde iría. El verificador ZK');
-  linea('  el kernel 0.1.6 lo incluye, pero Vela no integra el verificador y esta demostración sigue pendiente.');
+  linea('  el kernel 0.1.8 lo incluye, pero Vela no integra el verificador y esta demostración sigue pendiente.');
 
   titulo('3. Alguien intenta publicar antes de tiempo: no puede');
   const temprano = await v.publicar({ documento: 'doc-1' }, { now: T0 });
